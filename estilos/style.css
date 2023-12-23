@@ -1,0 +1,305 @@
+:root {
+    --branco-principal: #FFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+    height: 100vh;
+    background: #00030C;
+}
+
+
+.contain {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.conteudo__menu {
+    background: url(/imagens/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: var(--branco-principal);
+    align-items: center;
+    text-align: center;
+}
+
+.titulo__contain {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.tamanho__titulo__contain {
+    width: 800px;
+    align-items: center;
+    text-align: center;
+}
+
+.combo__menu {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contain__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.acnora__contain {
+    background: var(--botao-azul);
+    margin-top: 3%;
+    padding: 2.6%;
+    border-radius: 8px;
+    width: 700px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--branco-principal);
+
+
+}
+
+.aviso__contain {
+    margin-top: 2%;
+    color: var(--cinza-secundario);
+}
+
+.acnora__contain__diferencial {
+    background: none;
+    border: solid 2px var(--branco-principal);
+}
+
+.acnora__contain:hover {
+    background: var(--cinza-secundario);
+}
+
+
+
+
+
+
+
+
+
+
+.conteudo__secundario__menu {
+    align-items: center;
+    justify-items: center;
+    margin: 0 5%;
+    height: 80vh;
+}
+
+.titulo__secundario__contain {
+    color: var(--branco-principal);
+    font-size: 65px;
+    font-weight: 800;
+
+    margin-bottom: 2%;
+
+}
+
+.conteudo__secundario__contain {
+    color: var(--cinza-secundario);
+    font-size: 35px;
+    text-align: justify;
+}
+
+.imagem__secundaria {
+
+    width: 65%;
+}
+
+
+
+
+
+
+.conteudo__terciario__menu {
+    align-items: center;
+    justify-items: center;
+    margin: 0 5%;
+    height: 80vh;
+    
+}
+
+
+
+.acnora__secundaria__contain {
+    margin-top: 3%;
+    background: var(--botao-azul);
+    padding: 2.6%;
+    border-radius: 8px;
+    width: 160px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--branco-principal);
+    display: inline-block;
+    text-align: center;
+}
+
+.imagem__terciaria {
+    width: 65%;
+
+}
+
+
+
+
+
+.conteudo__quartenario__menu {
+    align-items: center;
+    justify-items: center;
+    margin:0 5%;
+    height: 80vh;
+    margin-bottom: 10%;
+    
+    
+
+}
+.imagem__quartenaria__menu {
+    width: 65%;
+    
+
+}
+
+
+
+
+
+.conteudo__margem {
+    margin-right: 10%;
+}
+
+.titulo__quartenario__contain {
+    color: var(--branco-principal);
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+
+
+
+
+.lista__item {
+    color: #FFFF;
+    text-align: center;
+}
+
+.dispositivos__listas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+
+}
+
+.titulo__quinto {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.lista__item {
+    font-size: 40px;
+    margin-top: 5%;
+
+}
+
+.logo__footer {
+    width: 10%;
+
+}
+
+.rodape {
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    gap: 20px;
+
+
+}
+
+.lista__rodape {
+    list-style: none;
+}
+
+
+.links__rodape {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFF;
+
+}
+
+
+.direitos__footer {
+    color: #FFFF;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 2%;
+
+}
+
+.conteudo__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+
+}
+
+.links__rodape:hover {
+    background: var(--botao-azul)
+}
+
+@media (max-width:1200px){
+    .tamanho__titulo__contain {
+        width: 500px;
+        
+    }
+    .titulo__contain {
+        font-size: 35px;
+    }
+    .acnora__contain {
+        width: 340px;
+        font-size: 15px;
+    }
+    .titulo__secundario__contain{
+        font-size: 40px;
+    }
+    .conteudo__secundario__contain{
+        font-size: 25px;
+    }
+    .titulo__quartenario__contain{
+        font-size: 35px;
+    }
+    .direitos__footer {
+        font-size: 15px;
+    }
+    .links__rodape {
+        font-size: 15px;
+    }
+}
+   
+        
+    
